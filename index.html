@@ -31,11 +31,82 @@
 <div class="bg-pink-600 flex justify-center items-center py-5 lg:gap-7 md:gap-5 gap-3">
     <img src="./img/ic-rider-icon.svg" alt="" class="w-20 text-white md:block hidden">
   <h3 class="lg:text-3xl md:text-2xl text-lg md:font-bold font-normal font-open leading-[30px] text-white">Do you need a business account?</h3>
-<a class="text-white text-lg font-open font-medium lg:p-[20px] md:p-[16px] px-[12px] py-[8px] border border-white cursor-pointer rounded-xl">SIGN UP NOW</a>
+<a class="text-white md:text-lg text-base font-open font-medium lg:p-[20px] md:p-[16px] px-[12px] py-[8px] border border-white cursor-pointer rounded-xl">SIGN UP NOW</a>
 
 </div>
 
 <!-- navbar end -->
+ 
+<!-- navbar -->
+<nav>
+
+    <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow hidden">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a href="index.html" class="btn text-2xl text bg-transparent hover:bg-transparent shadow-none border-none text-[#FF2B85] "> 
+            <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="28" height="28" data-testid="brand-icon-icon" aria-hidden="true" focusable="false" class="logo-icon"><path d="M35 0H5C2.24 0 0 2.24 0 5v30c0 2.76 2.24 5 5 5h30c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5Z" fill="#ff2b85"></path><path d="M14.58 17.53c.41-.04.71-.4.68-.81a.756.756 0 0 0-.81-.68c-.39.03-.68.35-.68.74.02.43.38.76.81.75Zm10.44-1.33c.12-.09.25-.14.4-.16.43-.02.79.32.81.75 0 .41-.33.75-.75.75s-.75-.33-.75-.75c0-.23.11-.45.29-.59Z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33.51 14.52v-.03c-.15-.3-.1-.65.12-.9a4.983 4.983 0 0 0 .89-4.78c-.06-.19-.34-.24-.61-.29-.26-.05-.52-.09-.62-.26-.09-.15-.06-.38 0-.63.02-.07.03-.13.04-.2.05-.26.07-.51-.06-.64s-.28-.26-.42-.37l-.09-.07c-1-.74-2.23-1.1-3.47-1.03-1.08.05-2.23.41-3.06 1.14-.4.29-.92.37-1.39.22l-.07-.02c-.84-.3-1.7-.52-2.58-.66a14.28 14.28 0 0 0-6.95.66h-.05c-.45.18-.96.1-1.35-.19-1.55-1.37-4.68-1.71-6.72.01-2.23 1.88-2.36 5.17-.71 7.1.22.25.26.6.12.9-.98 2-1.5 4.2-1.51 6.43 0 7.97 6.72 13.77 15 13.77 8.28 0 15-5.8 15-13.77 0-2.22-.52-4.41-1.49-6.41 0 0 0 .02-.01.02h-.01ZM19.9 20.19c1.19 0 2.15.26 2.15.72 0 .46-.96 1.5-2.15 1.5s-2.15-1.04-2.15-1.5c0-.46.96-.72 2.15-.72ZM7.86 11.8a.578.578 0 0 1-.18-.2c-.02-.03-.04-.07-.06-.1-.36-.66-.45-1.44-.23-2.16.42-1.41 1.92-2.24 3.35-2.05.37.05.74.17 1.07.35.14.08.26.17.37.28.04.04.08.09.1.15.02.09 0 .18-.07.25-.06.06-.14.11-.22.15-1.37.8-2.49 1.95-3.52 3.14-.17.19-.35.37-.61.19Zm3.66 11.33c-1.24-.14-2.32-1.45-2.73-2.77-.18-.58-.61-3.26 1.31-5.2.64-.64 1.54-1.21 2.79-1.59.41-.1.82-.15 1.24-.15.62 0 1.36.1 1.95.53 1.24.91 1.26 2.44.52 3.23s-2.4 2.59-2.83 4.06c-.42 1.47-1.01 2.04-2.26 1.9 0 0 .01-.01.01 0v-.01Zm8.4 4.43h-.04c-2.39-.01-4.32-1.7-4.32-3.4 0-.59.26-.89.89-.73.37.09 1.89.48 3.27.48h.35c1.35 0 2.82-.37 3.24-.48h.03c.64-.16.89.14.89.72 0 1.7-1.93 3.39-4.32 3.4h.01v.01Zm11.09-7.22c-.41 1.32-1.49 2.63-2.73 2.77-1.24.14-1.83-.42-2.26-1.9-.43-1.47-2.09-3.28-2.83-4.07-.74-.78-.72-2.32.52-3.23.58-.43 1.33-.53 1.95-.53.42 0 .83.05 1.24.15 1.25.38 2.15.94 2.79 1.58 1.92 1.94 1.49 4.62 1.31 5.2 0 0 .01.03 0 .03h.01Zm1.37-8.84-.06.1a.86.86 0 0 1-.18.2c-.26.18-.44 0-.61-.19-1.03-1.19-2.15-2.34-3.52-3.14a1.07 1.07 0 0 1-.22-.15.33.33 0 0 1-.08-.25c.02-.06.05-.11.1-.15.11-.11.23-.21.37-.28.33-.18.7-.3 1.07-.35 1.43-.19 2.93.64 3.35 2.05.21.72.13 1.5-.23 2.16h.01Z" fill="#fff"></path></svg>foodpanda</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 hidden">
+            <li><a>Item 1</a></li>
+            <li>
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-3">
+            <div class="">
+                <a class="btn bg-transparent border-2  border-black hover:border-2 hover:border-black">Log in</a>
+            </div>
+
+          <a class="btn bg-[#E21B70] lg:flex  hidden hover:bg-[#E21B70] text-white">Sign Up</a>
+          
+          <a class="btn bg-transparent hover:bg-transparent lg:flex hidden"><svg aria-hidden="true" focusable="false" class="fl-none" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12ZM10.6635 19.3813C9.79267 18.1369 9.11658 16.9361 8.65036 15.75H5.50337C6.58707 17.6234 8.45784 18.9845 10.6635 19.3813ZM4.84335 14.25H8.17237C7.98964 13.4966 7.89523 12.7442 7.8931 11.9853C7.891 11.2379 7.97842 10.4952 8.15242 9.75H4.84335C4.62027 10.4603 4.5 11.2161 4.5 12C4.5 12.7839 4.62027 13.5397 4.84335 14.25ZM5.50337 8.25H8.61663C9.06884 7.07159 9.72906 5.8752 10.586 4.63309C8.41405 5.04747 6.57436 6.39858 5.50337 8.25ZM18.4966 15.75C17.4415 17.574 15.6402 18.9124 13.5102 19.3479C14.3698 18.1154 15.038 16.9255 15.5 15.75H18.4966ZM19.1566 14.25H15.978C16.1608 13.4966 16.2552 12.7442 16.2573 11.9853C16.2594 11.2379 16.172 10.4952 15.998 9.75H19.1566C19.3797 10.4603 19.5 11.2161 19.5 12C19.5 12.7839 19.3797 13.5397 19.1566 14.25ZM18.4966 8.25H15.5338C15.0859 7.08283 14.4339 5.89803 13.5888 4.66862C15.6845 5.12065 17.4545 6.44847 18.4966 8.25ZM12.0752 5.12312C12.8682 6.22942 13.4764 7.26325 13.9116 8.25H10.2388C10.674 7.26325 11.2822 6.22942 12.0752 5.12312ZM9.69994 9.75H14.4504C14.6591 10.5113 14.7593 11.2505 14.7573 11.981C14.7552 12.7258 14.6467 13.4775 14.4269 14.25H9.72354C9.50364 13.4775 9.39519 12.7258 9.3931 11.981C9.39105 11.2505 9.49129 10.5113 9.69994 9.75ZM10.2783 15.75H13.8721C13.4389 16.7093 12.8428 17.7109 12.0752 18.7788C11.3076 17.7109 10.7115 16.7093 10.2783 15.75Z"></path></svg>En<i class="fa-solid fa-angle-down"></i></a>
+
+          <i class="fa-solid fa-bag-shopping lg:block hidden"></i>
+
+        </div>
+      </div>
+    
+</nav>
+<!-- navbar -->
+
+
 <!-- banner start -->
 <section class="flex lg:flex-row flex-col-reverse justify-center items-center bg-gray-100">
     <div class="">
@@ -43,7 +114,9 @@
         <div class="bg-[white] flex md:gap-[40px] gap-[10px] py-[15px] md:ml-[30px] ml-[0px] rounded-[10px]   ">
             <div class="border flex items-center md:gap-[150px]  md:p-[15px] p-[8px] md:px-[10px] px-[6px] rounded-[10px] ">
        <input type="text" placeholder="enter your address" class="cursor-pointer">
-       <p class="flex cursor-pointer text-gray-700 font-medium"><svg aria-hidden="true" focusable="false" class="fl-none" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="locate-me"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C12.4142 2 12.75 2.33579 12.75 2.75L12.7506 3.67925C12.7507 3.88008 12.8998 4.04968 13.0989 4.07562C13.1524 4.08259 13.1986 4.08909 13.2375 4.09514C16.6725 4.62856 19.3848 7.34731 19.9084 10.7855C19.9135 10.8188 19.9189 10.8575 19.9247 10.9019C19.9506 11.1011 20.1204 11.2502 20.3214 11.2502L21.25 11.25C21.6642 11.25 22 11.5858 22 12C22 12.4142 21.6642 12.75 21.25 12.75L20.3212 12.7506C20.1205 12.7507 19.951 12.8995 19.9249 13.0985C19.9211 13.1273 19.9175 13.1532 19.9141 13.1762C19.4013 16.6567 16.647 19.4078 13.1649 19.9158C13.145 19.9187 13.1228 19.9218 13.0984 19.925C12.8995 19.9511 12.7507 20.1206 12.7506 20.3213L12.75 21.25C12.75 21.6642 12.4142 22 12 22C11.5858 22 11.25 21.6642 11.25 21.25L11.2502 20.3213C11.2502 20.1203 11.1011 19.9505 10.9018 19.9246C10.8535 19.9183 10.8115 19.9124 10.7758 19.9069C7.33814 19.379 4.62167 16.6629 4.09327 13.2254C4.08776 13.1896 4.08184 13.1474 4.07552 13.0989C4.04958 12.8997 3.87997 12.7507 3.67912 12.7506L2.75 12.75C2.33579 12.75 2 12.4142 2 12C2 11.5858 2.33579 11.25 2.75 11.25L3.67818 11.2502C3.87895 11.2502 4.04865 11.1015 4.07487 10.9024C4.07777 10.8805 4.08053 10.8604 4.08317 10.8422C4.58738 7.36412 7.32923 4.61075 10.8016 4.08916C10.8307 4.08479 10.8642 4.08013 10.902 4.07519C11.1012 4.04909 11.2502 3.87936 11.2502 3.67848L11.25 2.75C11.25 2.33579 11.5858 2 12 2ZM12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5ZM12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8ZM12 9.5C10.6193 9.5 9.5 10.6193 9.5 12C9.5 13.3807 10.6193 14.5 12 14.5C13.3807 14.5 14.5 13.3807 14.5 12C14.5 10.6193 13.3807 9.5 12 9.5Z"></path></svg>Locate me</p>
+       <p class="flex cursor-pointer text-gray-700 font-medium">
+        
+        <svg aria-hidden="true" focusable="false" class="fl-none" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="locate-me"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C12.4142 2 12.75 2.33579 12.75 2.75L12.7506 3.67925C12.7507 3.88008 12.8998 4.04968 13.0989 4.07562C13.1524 4.08259 13.1986 4.08909 13.2375 4.09514C16.6725 4.62856 19.3848 7.34731 19.9084 10.7855C19.9135 10.8188 19.9189 10.8575 19.9247 10.9019C19.9506 11.1011 20.1204 11.2502 20.3214 11.2502L21.25 11.25C21.6642 11.25 22 11.5858 22 12C22 12.4142 21.6642 12.75 21.25 12.75L20.3212 12.7506C20.1205 12.7507 19.951 12.8995 19.9249 13.0985C19.9211 13.1273 19.9175 13.1532 19.9141 13.1762C19.4013 16.6567 16.647 19.4078 13.1649 19.9158C13.145 19.9187 13.1228 19.9218 13.0984 19.925C12.8995 19.9511 12.7507 20.1206 12.7506 20.3213L12.75 21.25C12.75 21.6642 12.4142 22 12 22C11.5858 22 11.25 21.6642 11.25 21.25L11.2502 20.3213C11.2502 20.1203 11.1011 19.9505 10.9018 19.9246C10.8535 19.9183 10.8115 19.9124 10.7758 19.9069C7.33814 19.379 4.62167 16.6629 4.09327 13.2254C4.08776 13.1896 4.08184 13.1474 4.07552 13.0989C4.04958 12.8997 3.87997 12.7507 3.67912 12.7506L2.75 12.75C2.33579 12.75 2 12.4142 2 12C2 11.5858 2.33579 11.25 2.75 11.25L3.67818 11.2502C3.87895 11.2502 4.04865 11.1015 4.07487 10.9024C4.07777 10.8805 4.08053 10.8604 4.08317 10.8422C4.58738 7.36412 7.32923 4.61075 10.8016 4.08916C10.8307 4.08479 10.8642 4.08013 10.902 4.07519C11.1012 4.04909 11.2502 3.87936 11.2502 3.67848L11.25 2.75C11.25 2.33579 11.5858 2 12 2ZM12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5ZM12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8ZM12 9.5C10.6193 9.5 9.5 10.6193 9.5 12C9.5 13.3807 10.6193 14.5 12 14.5C13.3807 14.5 14.5 13.3807 14.5 12C14.5 10.6193 13.3807 9.5 12 9.5Z"></path></svg>Locate me</p>
     </div>
      <a class="bg-[#E21B70] text-base font-medium font-open cursor-pointer text-white md:p-[18px] p-[10px] rounded-[8px]">Find food</a>
     </div>
@@ -53,11 +126,268 @@
     </div>
 </section>
 <!-- banner end -->
+ <!-- restaurant list -->
+ <section class="lg:my-24 md:my-16 my-8">
+    <div class="md:mb-10 mb-5">
+        <h2 class="lg:text-4xl md:text-2xl text-base font-bold">Take your office out to lunch</h2>
+    </div>
+     <div class="">
+   <!-- hero part -->
+   <div
+   class="hero lg:py-48 md:py-32 py-16"
+   style="background-image: url(https://images.deliveryhero.io/image/foodpanda/home-vendor-bd.jpg?width=2528&height=1617.92);">
+   
+ </div>
+ <!-- hero part -->
+   <!-- card part -->
+   <div class="card bg-base-100 lg:w-[40%] md:w-[50%] lg:-mt-36 md:-mt-32 -mt-8 lg:ml-28 md:ml-14 shadow-xl">
+    <div class="card-body">
+      <h2 class="card-title">List your restaurant or shop on foodpanda</h2>
+      <p class="mb-2">Would you like millions of new customers to enjoy your amazing food and groceries? So would we!
+    </p>
+    <p class="mb-2">
+        It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!
+    </p> 
+        <p>
+            Interested? Let's start our partnership today!.
+        </p>
+      <div class="card-actions justify-start">
+        <button class="btn bg-[#E21B70] hover:bg-[#E21B70] text-white">Get Started</button>
+      </div>
+    </div>
+  </div>
+   <!-- card part -->
+    </div>
+</section>
+<!-- restaurant list -->
+
+ <!-- Find us -->
+ <section class="lg:my-24 md:my-16 my-8">
+    <!-- heading -->
+    <div class="md:mb-10 mb-5">
+        <h2 class="lg:text-4xl md:text-2xl text-base font-semibold">Find us in these cities and many more!</h2>
+    </div>
+    <!-- heading -->
+    <!-- citis -->
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
+
+      <!-- card-1 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-title-Dhaka.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Dhaka</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-1 -->
+      <!-- card-2 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-title-Chittagong.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn">Chittagong</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-2 -->
+      <!-- card-3 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Bagerhat.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Bagerhat</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-3 -->
+      <!-- card-4 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Bandarban.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Bandarban</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-4 -->
+      <!-- card-5 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Barguna.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Barguna</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-5 -->
+      <!-- card-6 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Barisal.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Barisal</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-6 -->
+      <!-- card-7 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Bhola.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Bhola</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-7 -->
+      <!-- card-8 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Bogra.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Bogra</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-8 -->
+      <!-- card-9 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Brahmanbaria.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Brahmanbaria</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-9 -->
+      <!-- card-10 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Chandpur.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Chandpur</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-10 -->
+      <!-- card-11 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-Chuadanga.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Chuadanga</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      <!-- card-11 -->
+      <!-- card-12 -->
+      <div class="card">
+        <div>
+            <div class="">
+                <img class="rounded-xl"
+                src="https://images.deliveryhero.io/image/fd-bd/city-title/city-tile-cumilla.jpg?width=720"
+                alt="city" />
+            </div>  
+
+            <div class="card-actions justify-start -mt-14 ml-2">
+                <button class="btn ">Cumilla</button>
+              </div>
+        </div>
+        
+        
+      </div>
+      
+      <!-- card-12 -->
+
+
+    </div>
+    <!-- citis -->
+    
+</section>
+<!-- Find us -->
 
 <!-- Put us in your pocket start -->
 
 <h2 class="lg:text-[40px] md:text-[30px] text-2xl font-open text-black font-bold leading-[40px] lg:mt-[70px] md:mt-[35px] mt-[25px] lg:mb-[40px] md:mb-[30px] mb-[20px]">Put us in your pocket</h2>
-<section class="bg-[#E21B70] flex justify-center lg:flex-row flex-col items-center  lg:mb-[80px] md:mb-[40px] mb-[25px]">
+<section class="bg-[#E21B70] flex justify-center lg:flex-row flex-col-reverse items-center  lg:mb-[80px] md:mb-[40px] mb-[25px]">
 <div class="mb-[20px]">
 <h3 class="lg:text-3xl md:text-[26px] text-2xl font-bold text-white font-open leading-[40px] text-center">Download the food and groceries you love</h3>
 <div class="flex gap-3 lg:mt-[50px] md:mt-[30px] mt-[20px] md:mb-[30px] mb-[20px]">
@@ -82,5 +412,125 @@
 <!--  Put us in your pocket end -->
 
 
+<!-- foodpanda for business -->
+<section class="lg:my-24 md:my-16 my-8">
+    <div class="md:mb-10 mb-5">
+        <h2 class="lg:text-4xl md:text-2xl text-base font-bold">Take your office out to lunch</h2>
+    </div>
+     <div class="">
+   <!-- hero part -->
+   <div
+   class="hero lg:py-48 md:py-24 py-12"
+   style="background-image: url(https://images.deliveryhero.io/image/foodpanda/home-corporate-bd.jpg?width=2528&height=1617.92);">
+   
+ </div>
+ <!-- hero part -->
+   <!-- card part -->
+   <div class="card bg-base-100 lg:w-[40%] md:w-[50%] lg:-mt-24 md:-mt-20 -mt-8 lg:ml-28 md:ml-14 shadow-xl">
+    <div class="card-body">
+      <h2 class="card-title">foodpanda for business</h2>
+      <p>Order lunch or fuel for work-from-home, late nights in the office, corporate events, client meetings, and much more.</p>
+      <div class="card-actions justify-start">
+        <button class="btn bg-[#E21B70] hover:bg-[#E21B70] text-white">Get Started</button>
+      </div>
+    </div>
+  </div>
+   <!-- card part -->
+    </div>
+</section>
+ <!-- foodpanda for business -->
+
+  <!-- foodpanda Bangladesh -->
+  <section class="lg:my-24 md:my-16 my-8">
+
+    <div class="hero">
+        <div class="hero-content">
+          <div class="">
+            <h1 class="text-xl font-semibold md:mb-6 mb-3">Order food from the best restaurants and shops with foodpanda Bangladesh</h1>
+            <p class="text-gray-500 font-thin">
+                Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Bangladesh is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your everyday easier. Our online food delivery service has it all, whether you fancy a juicy burger from Takeout, fresh sushi from Samdado or peri peri chicken from Nando's, foodpanda Bangladesh has over 2000 restaurants available from Dhaka to Chittagong through to Sylhet. Did you know you can order your groceries and more from foodpanda, too? Check out foodpanda shops for favourite partners like Unimart, Suborno, Shwapno, Bengal Meat, and much more. Sit back and relax – let foodpanda Bangladesh take the pressure off your shoulders.
+            </p>
+          </div>
+        </div>
+      </div> 
+    
+</section>
+<!-- foodpanda Bangladesh -->
+
+<!-- countries start-->
+<div class="grid justify-center lg:grid-cols-10 md:grid-cols-5 grid-cols-2  lg:gap-[24px] md:gap-[12px] border p-[40px]">
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Myanmar </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Laos</a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Hong Kong   </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Pakistan  </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Singapore  </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Malaysia </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Philippines   </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Thailand   </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Taiwan  </a>
+<a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Cambodia </a>
+</div>
+<!-- countries end -->
+
+<!-- footer start -->
+
+<footer class="footer  text-base-content p-10">
+    <p class="text-xl text-gray-500 font-semibold font-open">© foodpanda
+    </p>
+    <nav>
+      <h6 class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Help Center</h6>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Refund Account Terms and</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Conditions</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Dine-in</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">pandago for customers</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Become an Affiliate</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Dhaka</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Gazipur</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Narayanganj</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Sylhet</a>
+    </nav>
+    <nav>
+      <a class=" text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Terms and Conditions</a>
+      <a class=" text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Cashback Program</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Partner with Us</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">foodpanda for Business</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">foodpanda Deals</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">All cities</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Barisal</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Khulna</a>
+      <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Rajshahi</a>
+    </nav>
+    <nav>
+        <h6 class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Privacy Policy</h6>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">pandapro Subscription</a>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]"> Download foodpanda Apps</a>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">
+            pandago for business</a>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Grocery delivery</a>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">
+            Ramadan delivery</a>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Comilla</a>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Mymensingh</a>
+        <a class="text-black text-xl font-medium font-open cursor-pointer link mb-[12px]">Areas delivered in Rangpur</a>
+    </nav>
+  </footer>
+  <!-- footer end -->
+   <!-- icons start -->
+<section class="flex justify-between  md:flex-row flex-col items-center border p-[30px]">
+<div class="flex items-center md:gap-5 gap-3 md:ml-[25px] ml-[0px] mb-4">
+  <a href="index.html" class="btn text-2xl text bg-transparent hover:bg-transparent shadow-none border-none text-[#FF2B85] "> 
+    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="28" height="28" data-testid="brand-icon-icon" aria-hidden="true" focusable="false" class="logo-icon"><path d="M35 0H5C2.24 0 0 2.24 0 5v30c0 2.76 2.24 5 5 5h30c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5Z" fill="#ff2b85"></path><path d="M14.58 17.53c.41-.04.71-.4.68-.81a.756.756 0 0 0-.81-.68c-.39.03-.68.35-.68.74.02.43.38.76.81.75Zm10.44-1.33c.12-.09.25-.14.4-.16.43-.02.79.32.81.75 0 .41-.33.75-.75.75s-.75-.33-.75-.75c0-.23.11-.45.29-.59Z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33.51 14.52v-.03c-.15-.3-.1-.65.12-.9a4.983 4.983 0 0 0 .89-4.78c-.06-.19-.34-.24-.61-.29-.26-.05-.52-.09-.62-.26-.09-.15-.06-.38 0-.63.02-.07.03-.13.04-.2.05-.26.07-.51-.06-.64s-.28-.26-.42-.37l-.09-.07c-1-.74-2.23-1.1-3.47-1.03-1.08.05-2.23.41-3.06 1.14-.4.29-.92.37-1.39.22l-.07-.02c-.84-.3-1.7-.52-2.58-.66a14.28 14.28 0 0 0-6.95.66h-.05c-.45.18-.96.1-1.35-.19-1.55-1.37-4.68-1.71-6.72.01-2.23 1.88-2.36 5.17-.71 7.1.22.25.26.6.12.9-.98 2-1.5 4.2-1.51 6.43 0 7.97 6.72 13.77 15 13.77 8.28 0 15-5.8 15-13.77 0-2.22-.52-4.41-1.49-6.41 0 0 0 .02-.01.02h-.01ZM19.9 20.19c1.19 0 2.15.26 2.15.72 0 .46-.96 1.5-2.15 1.5s-2.15-1.04-2.15-1.5c0-.46.96-.72 2.15-.72ZM7.86 11.8a.578.578 0 0 1-.18-.2c-.02-.03-.04-.07-.06-.1-.36-.66-.45-1.44-.23-2.16.42-1.41 1.92-2.24 3.35-2.05.37.05.74.17 1.07.35.14.08.26.17.37.28.04.04.08.09.1.15.02.09 0 .18-.07.25-.06.06-.14.11-.22.15-1.37.8-2.49 1.95-3.52 3.14-.17.19-.35.37-.61.19Zm3.66 11.33c-1.24-.14-2.32-1.45-2.73-2.77-.18-.58-.61-3.26 1.31-5.2.64-.64 1.54-1.21 2.79-1.59.41-.1.82-.15 1.24-.15.62 0 1.36.1 1.95.53 1.24.91 1.26 2.44.52 3.23s-2.4 2.59-2.83 4.06c-.42 1.47-1.01 2.04-2.26 1.9 0 0 .01-.01.01 0v-.01Zm8.4 4.43h-.04c-2.39-.01-4.32-1.7-4.32-3.4 0-.59.26-.89.89-.73.37.09 1.89.48 3.27.48h.35c1.35 0 2.82-.37 3.24-.48h.03c.64-.16.89.14.89.72 0 1.7-1.93 3.39-4.32 3.4h.01v.01Zm11.09-7.22c-.41 1.32-1.49 2.63-2.73 2.77-1.24.14-1.83-.42-2.26-1.9-.43-1.47-2.09-3.28-2.83-4.07-.74-.78-.72-2.32.52-3.23.58-.43 1.33-.53 1.95-.53.42 0 .83.05 1.24.15 1.25.38 2.15.94 2.79 1.58 1.92 1.94 1.49 4.62 1.31 5.2 0 0 .01.03 0 .03h.01Zm1.37-8.84-.06.1a.86.86 0 0 1-.18.2c-.26.18-.44 0-.61-.19-1.03-1.19-2.15-2.34-3.52-3.14a1.07 1.07 0 0 1-.22-.15.33.33 0 0 1-.08-.25c.02-.06.05-.11.1-.15.11-.11.23-.21.37-.28.33-.18.7-.3 1.07-.35 1.43-.19 2.93.64 3.35 2.05.21.72.13 1.5-.23 2.16h.01Z" fill="#fff"></path></svg>foodpanda</a>
+
+
+<svg width="160" height="32" viewBox="0 0 300 64" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_1088_35094" maskUnits="userSpaceOnUse" x="0" y="10" width="62" height="45" style="mask-type: luminance;"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 10H61.7303V55H0V10Z" fill="white"></path></mask><g mask="url(#mask0_1088_35094)"><path fill-rule="evenodd" clip-rule="evenodd" d="M52.503 31.1474C52.488 31.1544 52.48 31.1614 52.468 31.1664L46.336 33.6684L46.149 33.7534L44.655 40.5824C44.555 40.8154 44.257 40.8704 44.056 40.6754L39.589 35.3934L39.567 35.3784L14.379 46.1874C14.357 46.1994 14.332 46.2044 14.308 46.2044C14.214 46.2044 14.139 46.1294 14.139 46.0344C14.139 45.9804 14.165 45.9304 14.207 45.8994L35.984 29.5984L33.229 23.3084C33.091 23.0214 33.345 22.7164 33.682 22.8004H33.685L40.357 24.4454L45.538 19.8334V19.8344C45.763 19.6594 46.066 19.7844 46.122 20.0604L46.629 26.9904L52.604 30.4854C52.86 30.6494 52.823 31.0274 52.503 31.1474M49.458 11.3434C41.728 8.31042 33.226 10.5874 27.979 16.4184L7.50504 38.3504C7.23004 38.6454 7.35704 39.0154 7.69304 39.0654L13.147 39.4004C13.584 39.4274 13.638 39.8024 13.418 40.0604L0.0850411 54.4424C-0.145959 54.6924 0.133041 55.0834 0.451041 54.9844L19.487 48.9694C19.89 48.8314 20.2 49.1894 20.029 49.5034L17.483 54.0054C17.352 54.2624 17.599 54.6144 17.919 54.5904L45.363 48.4774C51.922 47.4394 57.776 43.0624 60.379 36.4354C64.298 26.4884 59.401 15.2554 49.458 11.3434" fill="#D61F26"></path></g><path fill-rule="evenodd" clip-rule="evenodd" d="M123.031 44.7135H116.777L121.67 21.7975L128.49 19.2905L123.031 44.7135Z" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M109.598 31.5875C108.101 31.5875 107.24 32.8265 106.89 34.2645C109.851 34.2645 110.747 33.3395 110.747 32.5715C110.747 32.0325 110.265 31.5875 109.598 31.5875M106.19 38.2775C106.156 38.4355 106.124 38.7255 106.124 38.8825C106.124 39.9035 106.823 40.2525 108.675 40.2525C110.33 40.2525 112.687 39.8385 114.059 39.3615V44.0465C112.307 44.6835 109.563 45.0325 107.365 45.0325C102.202 45.0325 99.7168 43.6295 99.7168 38.9475C99.7168 34.3525 101.851 27.1855 110.077 27.1855C115.3 27.1855 116.861 29.5475 116.861 32.0325C116.861 35.2505 114.091 37.9905 106.19 38.2775" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M134.389 26.365C132.257 26.365 130.885 24.995 130.885 23.114C130.885 20.66 132.607 19.29 134.739 19.29C136.907 19.29 138.247 20.66 138.247 22.509C138.247 24.995 136.557 26.365 134.389 26.365" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M130.001 27.7627H136.438L133.183 44.4607H126.682L128.975 32.7347" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M154.983 27.7627C152.751 33.3717 150.296 38.8517 147.174 44.4607H139.206C138.187 39.1687 137.74 33.5927 137.869 27.7627H144.372C144.241 30.5027 144.275 33.3087 144.431 35.9177C144.465 36.6197 144.531 37.2877 144.592 37.9617H144.629C144.913 37.2877 145.229 36.6197 145.517 35.9177C146.631 33.1737 147.651 30.1867 148.421 27.7627H154.983Z" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M163.682 31.5875C162.187 31.5875 161.322 32.8265 160.968 34.2645C163.937 34.2645 164.829 33.3395 164.829 32.5715C164.829 32.0325 164.353 31.5875 163.682 31.5875M160.274 38.2775C160.243 38.4355 160.206 38.7255 160.206 38.8825C160.206 39.9035 160.911 40.2525 162.756 40.2525C164.414 40.2525 166.773 39.8385 168.143 39.3615V44.0465C166.389 44.6835 163.649 45.0325 161.452 45.0325C156.286 45.0325 153.801 43.6295 153.801 38.9475C153.801 34.3525 155.935 27.1855 164.16 27.1855C169.386 27.1855 170.945 29.5475 170.945 32.0325C170.945 35.2505 168.177 37.9905 160.274 38.2775" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M183.445 33.656C183.091 33.56 182.389 33.463 181.881 33.463C180.445 33.463 179.298 34.899 178.786 37.544L177.454 44.461H170.945L174.202 27.763H179.079L179.237 29.989C180.733 28.143 181.915 27.186 183.73 27.186C184.557 27.186 185.005 27.249 185.225 27.314L183.445 33.656Z" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M203.774 27.7627C200.903 35.2197 198.355 40.6687 195.805 44.4317C192.109 49.9467 188.857 51.2207 185.508 51.2207C184.52 51.2207 183.47 50.9617 182.959 50.7077L183.981 45.8967H186.212C187.328 45.8967 187.803 45.4477 188.539 44.4607C187.295 39.9687 186.688 33.6907 186.752 27.7627H193.288C193.155 30.4687 193.189 33.2767 193.351 35.8247C193.383 36.5547 193.443 37.2577 193.506 37.9617H193.541C193.827 37.2877 194.143 36.6197 194.433 35.8877C195.517 33.2417 196.571 30.2137 197.267 27.7627H203.774Z" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M228.765 44.4609H221.908L223.535 36.0449H217.732L216.105 44.4609H209.256L213.589 22.2139H220.444L218.883 30.1519H224.684L226.245 22.2139H233.094L228.765 44.4609Z" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M242.271 31.5875C240.773 31.5875 239.915 32.8265 239.564 34.2645C242.529 34.2645 243.424 33.3395 243.424 32.5715C243.424 32.0325 242.941 31.5875 242.271 31.5875M238.862 38.2775C238.829 38.4355 238.8 38.7255 238.8 38.8825C238.8 39.9035 239.502 40.2525 241.346 40.2525C243.006 40.2525 245.365 39.8385 246.735 39.3615V44.0465C244.983 44.6835 242.241 45.0325 240.04 45.0325C234.876 45.0325 232.391 43.6295 232.391 38.9475C232.391 34.3525 234.527 27.1855 242.75 27.1855C247.978 27.1855 249.542 29.5475 249.542 32.0325C249.542 35.2505 246.763 37.9905 238.862 38.2775" fill="#D61F26"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M262.031 33.656C261.681 33.56 260.985 33.463 260.472 33.463C259.039 33.463 257.889 34.899 257.38 37.544L256.04 44.461H249.543L252.79 27.763H257.665L257.826 29.989C259.325 28.143 260.501 27.186 262.316 27.186C263.149 27.186 263.593 27.249 263.819 27.314L262.031 33.656Z" fill="#D61F26"></path><mask id="mask1_1088_35094" maskUnits="userSpaceOnUse" x="262" y="27" width="20" height="19" style="mask-type: luminance;"><path fill-rule="evenodd" clip-rule="evenodd" d="M262.734 27.1851H281.091V45.0321H262.734V27.1851Z" fill="white"></path></mask><g mask="url(#mask1_1088_35094)"><path fill-rule="evenodd" clip-rule="evenodd" d="M272.709 32.3181C270.096 32.3181 269.394 36.3011 269.394 38.0881C269.394 39.5211 269.999 39.9341 271.182 39.9341C273.759 39.9341 274.428 35.9491 274.428 34.1371C274.428 32.7341 273.856 32.3181 272.709 32.3181M270.283 45.0321C265.218 45.0321 262.734 42.8641 262.734 38.5311C262.734 33.7181 265.124 27.1851 273.54 27.1851C278.574 27.1851 281.091 29.4171 281.091 33.6901C281.091 38.5981 278.699 45.0321 270.283 45.0321" fill="#D61F26"></path></g><path fill-rule="evenodd" clip-rule="evenodd" d="M85.7605 39.1688H84.4855L86.7785 27.4398H88.5665C91.2735 27.4398 92.2615 29.0398 92.2615 31.2328C92.2615 35.6658 89.8035 39.1688 85.7605 39.1688V39.1688ZM91.8335 27.8558L96.1665 23.6978C94.4765 22.6808 92.1565 22.2148 89.2625 22.2148H87.7985H80.9775L76.6465 44.4618H83.4615H85.2845C95.3205 44.4618 99.3325 37.4498 99.3325 30.1518C99.3325 28.2568 98.9255 26.7408 98.1375 25.5628L91.8335 27.8558Z" fill="#D61F26"></path></svg>
+
+</div>
+
+<div class="flex gap-5 md:mr-[40px] mr-[10px]">
+    <i class="fa-brands fa-instagram "></i>
+    <i class="fa-brands fa-facebook-f "></i>
+</div>
+</section>
+<!-- icons end -->
 </body>
 </html>
